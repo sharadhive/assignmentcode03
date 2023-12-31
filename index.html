@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="background"></div>
+    <div class="content">
+        <div class="heading">
+            for <span id="randomImage"></span> and Cloud Gaming
+        </div>
+        <div class="launch-message">
+            Join us on the launch of gartcod
+            <div class="image-container">
+                <img style='width: 100px;'src="images/design.png" alt="Launch Image" class="image" id="randomImage">
+            </div>
+        </div>
+        <div class="countdown" id="countdown">
+            <span id="hours">00</span>:
+            <span id="minutes">00</span>:
+            <span id="seconds">00</span>
+        </div>
+        <button class="claim-button" id="claimButton" onclick="claimTicket()">Claim Ticket</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
